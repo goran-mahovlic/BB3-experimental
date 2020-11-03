@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2020-01-29"
+Date "2020-11-03"
 Rev "0.1"
-Comp "Envox d.o.o."
+Comp "Intergalaktik d.o.o."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -359,75 +359,267 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J3
 U 1 1 5FA1F5A6
-P 4000 3900
-F 0 "J3" H 4050 5017 50  0000 C CNN
-F 1 "PROBE" H 4050 4926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4000 3900 50  0001 C CNN
-F 3 "~" H 4000 3900 50  0001 C CNN
-	1    4000 3900
+P 1850 4250
+F 0 "J3" H 1900 5367 50  0000 C CNN
+F 1 "PROBE" H 1900 5276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 1850 4250 50  0001 C CNN
+F 3 "~" H 1850 4250 50  0001 C CNN
+	1    1850 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J4
 U 1 1 5FA21F7A
-P 5550 3900
-F 0 "J4" H 5600 5017 50  0000 C CNN
-F 1 "CABLE" H 5600 4926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5550 3900 50  0001 C CNN
-F 3 "~" H 5550 3900 50  0001 C CNN
-	1    5550 3900
+P 3400 4250
+F 0 "J4" H 3450 5367 50  0000 C CNN
+F 1 "CABLE" H 3450 5276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 3400 4250 50  0001 C CNN
+F 3 "~" H 3400 4250 50  0001 C CNN
+	1    3400 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 5FA23CF9
-P 2300 3600
-F 0 "H5" H 2400 3651 50  0000 L CNN
-F 1 "GND" H 2400 3560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2300 3600 50  0001 C CNN
-F 3 "~" H 2300 3600 50  0001 C CNN
-	1    2300 3600
+P 2250 2500
+F 0 "H5" H 2350 2551 50  0000 L CNN
+F 1 "GND" H 2350 2460 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2250 2500 50  0001 C CNN
+F 3 "~" H 2250 2500 50  0001 C CNN
+	1    2250 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 2300 3750 3    50   Input ~ 0
+Text GLabel 2250 2650 3    50   Input ~ 0
 GND
 Wire Wire Line
-	2300 3700 2300 3750
+	2250 2600 2250 2650
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J5
 U 1 1 5FA27915
-P 7550 3100
-F 0 "J5" H 7600 3417 50  0000 C CNN
-F 1 "PROBE" H 7600 3326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 7550 3100 50  0001 C CNN
-F 3 "~" H 7550 3100 50  0001 C CNN
-	1    7550 3100
+P 5400 3500
+F 0 "J5" H 5450 3817 50  0000 C CNN
+F 1 "PROBE" H 5450 3726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5400 3500 50  0001 C CNN
+F 3 "~" H 5400 3500 50  0001 C CNN
+	1    5400 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J6
 U 1 1 5FA28A68
-P 8700 3100
-F 0 "J6" H 8750 3417 50  0000 C CNN
-F 1 "CABLE" H 8750 3326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8700 3100 50  0001 C CNN
-F 3 "~" H 8700 3100 50  0001 C CNN
-	1    8700 3100
+P 5400 4200
+F 0 "J6" H 5450 4517 50  0000 C CNN
+F 1 "CABLE" H 5450 4426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5400 4200 50  0001 C CNN
+F 3 "~" H 5400 4200 50  0001 C CNN
+	1    5400 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 5FA29C86
-P 2750 3600
-F 0 "H6" H 2850 3651 50  0000 L CNN
-F 1 "GND" H 2850 3560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2750 3600 50  0001 C CNN
-F 3 "~" H 2750 3600 50  0001 C CNN
-	1    2750 3600
+P 2600 2500
+F 0 "H6" H 2700 2551 50  0000 L CNN
+F 1 "GND" H 2700 2460 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2600 2500 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+	1    2600 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 2750 3750 3    50   Input ~ 0
+Text GLabel 2600 2650 3    50   Input ~ 0
 GND
 Wire Wire Line
-	2750 3700 2750 3750
+	2600 2600 2600 2650
+Text GLabel 2150 3350 2    50   Input ~ 0
+OUT+
+Text GLabel 2150 3450 2    50   Input ~ 0
+OUT+
+Text GLabel 2150 3550 2    50   Input ~ 0
+IN+
+Text GLabel 2150 3650 2    50   Input ~ 0
+IN+
+Text GLabel 2150 3750 2    50   Input ~ 0
+IN+
+Text GLabel 2150 3850 2    50   Input ~ 0
+IN-
+Text GLabel 2150 3950 2    50   Input ~ 0
+IN-
+Text GLabel 2150 4050 2    50   Input ~ 0
+OUT-
+Text GLabel 2150 4150 2    50   Input ~ 0
+OUT-
+Text GLabel 2150 4250 2    50   Input ~ 0
+OUT-
+Text GLabel 1650 3350 0    50   Input ~ 0
+OUT+
+Text GLabel 1650 3650 0    50   Input ~ 0
+IN+
+Text GLabel 1650 3450 0    50   Input ~ 0
+OUT+
+Text GLabel 1650 3750 0    50   Input ~ 0
+IN+
+Text GLabel 1650 3550 0    50   Input ~ 0
+OUT+
+Text GLabel 1650 3850 0    50   Input ~ 0
+IN-
+Text GLabel 1650 3950 0    50   Input ~ 0
+IN-
+Text GLabel 1650 4050 0    50   Input ~ 0
+IN-
+Text GLabel 1650 4150 0    50   Input ~ 0
+OUT-
+Text GLabel 1650 4250 0    50   Input ~ 0
+OUT-
+Text GLabel 3200 3350 0    50   Input ~ 0
+OUT+
+Text GLabel 3200 3650 0    50   Input ~ 0
+IN+
+Text GLabel 3200 3450 0    50   Input ~ 0
+OUT+
+Text GLabel 3200 3750 0    50   Input ~ 0
+IN+
+Text GLabel 3200 3550 0    50   Input ~ 0
+OUT+
+Text GLabel 3200 3850 0    50   Input ~ 0
+IN-
+Text GLabel 3200 3950 0    50   Input ~ 0
+IN-
+Text GLabel 3200 4050 0    50   Input ~ 0
+IN-
+Text GLabel 3200 4150 0    50   Input ~ 0
+OUT-
+Text GLabel 3200 4250 0    50   Input ~ 0
+OUT-
+Text GLabel 3700 3350 2    50   Input ~ 0
+OUT+
+Text GLabel 3700 3450 2    50   Input ~ 0
+OUT+
+Text GLabel 3700 3550 2    50   Input ~ 0
+IN+
+Text GLabel 3700 3650 2    50   Input ~ 0
+IN+
+Text GLabel 3700 3750 2    50   Input ~ 0
+IN+
+Text GLabel 3700 3850 2    50   Input ~ 0
+IN-
+Text GLabel 3700 3950 2    50   Input ~ 0
+IN-
+Text GLabel 3700 4050 2    50   Input ~ 0
+OUT-
+Text GLabel 3700 4150 2    50   Input ~ 0
+OUT-
+Text GLabel 3700 4250 2    50   Input ~ 0
+OUT-
+Text GLabel 1650 5250 0    50   Input ~ 0
+DIB_+3V3
+Text GLabel 1650 5150 0    50   Input ~ 0
+DIB_NFAULT
+Text GLabel 1650 5050 0    50   Input ~ 0
+DIB_SCL
+Text GLabel 1650 4950 0    50   Input ~ 0
+GND
+Text GLabel 1650 4750 0    50   Input ~ 0
+GND
+Text GLabel 1650 4850 0    50   Input ~ 0
+DIB_CSA
+Text GLabel 1650 4650 0    50   Input ~ 0
+DIB_SCLK
+Text GLabel 1650 4550 0    50   Input ~ 0
+DIB_MOSI
+Text GLabel 1650 4450 0    50   Input ~ 0
+DIB_A0
+Text GLabel 1650 4350 0    50   Input ~ 0
+DIB_A1
+Text GLabel 2150 5250 2    50   Input ~ 0
++VAUX
+Text GLabel 2150 5050 2    50   Input ~ 0
+DIB_SYNC
+Text GLabel 2150 4950 2    50   Input ~ 0
+DIB_SDA
+Text GLabel 2150 4850 2    50   Input ~ 0
+DIB_IRQ
+Text GLabel 2150 4750 2    50   Input ~ 0
+DIB_CSB
+Text GLabel 2150 4650 2    50   Input ~ 0
+DIB_MISO
+Text GLabel 2150 4550 2    50   Input ~ 0
+GND
+Text GLabel 2150 4450 2    50   Input ~ 0
+DIB_A2
+Text GLabel 2150 4350 2    50   Input ~ 0
+GND
+Text GLabel 3700 5250 2    50   Input ~ 0
++VAUX
+Text GLabel 3700 5150 2    50   Input ~ 0
+DIB_NRESET
+Text GLabel 3700 5050 2    50   Input ~ 0
+DIB_SYNC
+Text GLabel 3700 4950 2    50   Input ~ 0
+DIB_SDA
+Text GLabel 3700 4850 2    50   Input ~ 0
+DIB_IRQ
+Text GLabel 3700 4750 2    50   Input ~ 0
+DIB_CSB
+Text GLabel 3700 4650 2    50   Input ~ 0
+DIB_MISO
+Text GLabel 3700 4550 2    50   Input ~ 0
+GND
+Text GLabel 3700 4450 2    50   Input ~ 0
+DIB_A2
+Text GLabel 3700 4350 2    50   Input ~ 0
+GND
+Text GLabel 5700 3500 2    50   Input ~ 0
+DIB_BOOT
+Text GLabel 5700 3400 2    50   Input ~ 0
+UART_RX
+Text GLabel 5700 3700 2    50   Input ~ 0
++12V
+Text GLabel 5700 3600 2    50   Input ~ 0
+5V
+Text GLabel 5700 4200 2    50   Input ~ 0
+DIB_BOOT
+Text GLabel 5700 4100 2    50   Input ~ 0
+UART_RX
+Text GLabel 5700 4400 2    50   Input ~ 0
++12V
+Text GLabel 5700 4300 2    50   Input ~ 0
+5V
+Text GLabel 5200 3700 0    50   Input ~ 0
++12V
+Text GLabel 5200 3600 0    50   Input ~ 0
+5V
+Text GLabel 5200 3500 0    50   Input ~ 0
+GND
+Text GLabel 5200 3400 0    50   Input ~ 0
+UART_TX
+Text GLabel 5200 4400 0    50   Input ~ 0
++12V
+Text GLabel 5200 4300 0    50   Input ~ 0
+5V
+Text GLabel 5200 4200 0    50   Input ~ 0
+GND
+Text GLabel 5200 4100 0    50   Input ~ 0
+UART_TX
+Text GLabel 3200 4350 0    50   Input ~ 0
+DIB_A1
+Text GLabel 3200 4450 0    50   Input ~ 0
+DIB_A0
+Text GLabel 3200 4550 0    50   Input ~ 0
+DIB_MOSI
+Text GLabel 3200 4650 0    50   Input ~ 0
+DIB_SCLK
+Text GLabel 3200 4850 0    50   Input ~ 0
+DIB_CSA
+Text GLabel 3200 4750 0    50   Input ~ 0
+GND
+Text GLabel 3200 4950 0    50   Input ~ 0
+GND
+Text GLabel 3200 5050 0    50   Input ~ 0
+DIB_SCL
+Text GLabel 3200 5150 0    50   Input ~ 0
+DIB_NFAULT
+Text GLabel 3200 5250 0    50   Input ~ 0
+DIB_+3V3
+Text GLabel 2150 5150 2    50   Input ~ 0
+DIB_NRESET
 $EndSCHEMATC
