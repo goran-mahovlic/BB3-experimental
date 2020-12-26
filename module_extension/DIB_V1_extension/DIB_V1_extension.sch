@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J1
 U 1 1 5E22CB95
-P 1800 1450
-F 0 "J1" H 1850 2067 50  0000 C CNN
-F 1 "20-pin power socket" H 1850 1976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 1800 1450 50  0001 C CNN
-F 3 "~" H 1800 1450 50  0001 C CNN
-	1    1800 1450
-	1    0    0    -1  
+P 1900 1450
+F 0 "J1" H 1950 2067 50  0000 C CNN
+F 1 "20-pin power socket" H 1950 1976 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 1900 1450 50  0001 C CNN
+F 3 "~" H 1900 1450 50  0001 C CNN
+	1    1900 1450
+	-1   0    0    -1  
 $EndComp
 Text GLabel 1500 1050 0    50   Input ~ 0
 OUT+
@@ -526,15 +526,15 @@ Text GLabel 3700 4850 2    50   Input ~ 0
 GND
 Text GLabel 3700 4950 2    50   Input ~ 0
 DIB_A2
-Text GLabel 2150 5050 2    50   Input ~ 0
-DIB_BOOT
 Text GLabel 2150 5150 2    50   Input ~ 0
-UART_RX
+DIB_BOOT
 Text GLabel 2150 5250 2    50   Input ~ 0
+UART_RX
+Text GLabel 2150 5050 2    50   Input ~ 0
 +12V
-Text GLabel 1650 5250 0    50   Input ~ 0
-5V
 Text GLabel 1650 5150 0    50   Input ~ 0
+5V
+Text GLabel 1650 5250 0    50   Input ~ 0
 UART_TX
 Text GLabel 3200 5050 0    50   Input ~ 0
 DIB_A1
@@ -558,14 +558,14 @@ Text GLabel 3200 4150 0    50   Input ~ 0
 DIB_+3V3
 Text GLabel 2150 4250 2    50   Input ~ 0
 DIB_NRESET
-Text GLabel 3700 5050 2    50   Input ~ 0
-DIB_BOOT
-Text GLabel 3200 5150 0    50   Input ~ 0
-UART_TX
 Text GLabel 3700 5150 2    50   Input ~ 0
-UART_RX
+DIB_BOOT
 Text GLabel 3200 5250 0    50   Input ~ 0
-5V
+UART_TX
 Text GLabel 3700 5250 2    50   Input ~ 0
+UART_RX
+Text GLabel 3200 5150 0    50   Input ~ 0
+5V
+Text GLabel 3700 5050 2    50   Input ~ 0
 +12V
 $EndSCHEMATC
