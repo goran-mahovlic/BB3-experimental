@@ -568,4 +568,48 @@ Text GLabel 3200 5150 0    50   Input ~ 0
 5V
 Text GLabel 3700 5050 2    50   Input ~ 0
 +12V
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5FEF1758
+P 5100 3100
+F 0 "H7" H 5200 3146 50  0000 L CNN
+F 1 "MH" H 5200 3055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5100 3100 50  0001 C CNN
+F 3 "~" H 5100 3100 50  0001 C CNN
+	1    5100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5FEF1D77
+P 5850 3100
+F 0 "H8" H 5950 3146 50  0000 L CNN
+F 1 "MH" H 5950 3055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5850 3100 50  0001 C CNN
+F 3 "~" H 5850 3100 50  0001 C CNN
+	1    5850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5FEF25E6
+P 6550 3100
+F 0 "H9" H 6650 3146 50  0000 L CNN
+F 1 "MH" H 6650 3055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6550 3100 50  0001 C CNN
+F 3 "~" H 6550 3100 50  0001 C CNN
+	1    6550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5FEF2CD5
+P 7250 3100
+F 0 "H10" H 7350 3146 50  0000 L CNN
+F 1 "MH" H 7350 3055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7250 3100 50  0001 C CNN
+F 3 "~" H 7250 3100 50  0001 C CNN
+	1    7250 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
